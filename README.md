@@ -1,6 +1,6 @@
-# BCT C Programming Projects
+# C Programming Projects
 
-Welcome to the BCT C Programming Projects repository! This repository is dedicated to collecting C programming projects from contributors. If you have a project to add, please follow the instructions below.
+Welcome to the C Programming Projects repository! This repository is dedicated to collecting C programming projects from contributors. If you have a project to add, please follow the instructions below.
 
 ## Adding a Project
 
@@ -17,8 +17,4 @@ Welcome to the BCT C Programming Projects repository! This repository is dedicat
    - Instructions to run the project
    - Any additional information or notes
 
-## BEI Projects
 
-Similarly, if you have a BEI project to add, follow the same steps as mentioned above, but create the project folder inside the `BEI` folder.
-
-We appreciate your contributions to this repository! Happy coding!
