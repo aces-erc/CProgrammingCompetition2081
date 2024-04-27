@@ -5,8 +5,8 @@ This project was developed for C-Project Demonstration.
 
 ## Team Members
 
-- [Dipika Chaudhary](https://github.com//riyooo13)
-- [Karuna Karki]
+- [Dipika Chaudhary](https://github.com/riyooo13)
+- [Karuna Karki](https://github.com/karunabott)
 - [Aarju Gautam]
 
 ### How to run
