@@ -901,7 +901,7 @@ void viewFeedBack()
     }
     if (!isFeedBackFound)
     {
-        gotoxy(getScreenWidth() / 2 - 5, getScreenHeight() / 2);
+      gotoxy(getScreenWidth() / 2 - 5, getScreenHeight() / 2);
         setTextColor(DARK_BLUE);
         print("Feedbacks not available.");
     }

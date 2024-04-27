@@ -22,7 +22,7 @@ To run the project, follow these steps:
 
 - Use the arrow keys to move the cursor to the desired cell.
 - Press the number keys (1-9) to input a number in the selected cell.
-- Use the arrow Up and Down Keys to Change the selected menu option.
+- Use the arrow Up and Down Keys to Change the selected menu option. 
 - Press the `Enter` key to confirm the option.
 
 ### ⚙️ Game Features

@@ -420,7 +420,7 @@ void write(char name[], int random, int x, int y)
     strcpy(alphabets[9][3], "    *");
     strcpy(alphabets[9][4], "*   *");
     strcpy(alphabets[9][5], " *** ");
-
+ 
     strcpy(alphabets[10][1], "*   *");
     strcpy(alphabets[10][2], "*  * ");
     strcpy(alphabets[10][3], "**   ");
