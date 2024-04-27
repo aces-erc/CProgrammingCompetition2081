@@ -281,11 +281,11 @@ int level_1(){
          { printf("                                                       Enter YOUR WORD : ");
          scanf("%s", guess);
         for (j=0; j<SIZE; j++){
-        if (strcmp(guess, words[j]) == 0){
-                if (guess == "CIRCLE")
+        if (strcmp(guess, words[j]) == 0)
+               
 
             break;
-        }
+        
         }
         score=score+1;
      }
