@@ -17,7 +17,7 @@ int main()
             {
                 printf("File doesnot exist");
             }
-            repo1=fopen("function-repo.txt","r");
+            repo1=fopen("help.txt","r");
             while(fscanf(repo1,"%c",&r1)!=EOF)
             {
 
