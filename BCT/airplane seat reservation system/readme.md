@@ -25,19 +25,21 @@ This project is a simple airplane seat reservation system written in C. It was d
 
 ## Cloning and Building the Code
 
-To clone and build the password manager code, follow these steps:
+To clone and build the airline ticketing system code, follow these steps:
 
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/airline-ticketing-system.git
-   cd airline-ticketing-system
+   git clone https://github.com/tangwep/CProgrammingCompetition2081.git
+   cd CProgrammingCompetition2081/BCT/airplane\ seat\ reservation\ system
 
-####Build the Code:Use the following command to compile the source files using gcc:
-    `gcc airline_ticketing_system.c -o airline_ticketing_system`
+2. **Build the Code:**
+   Use the following command to compile the source files using gcc:
+   ```bash
+   gcc airline_ticketing_system.c -o airline_ticketing_system
 
 
-**Usage**
+###Usage
 Login or Register: Choose either option to log in with existing credentials or register as a new user.
 Book a New Flight: Reserve flights, select seats, and make payments.
 View Old Tickets: Check previously booked tickets.
