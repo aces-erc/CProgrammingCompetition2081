@@ -37,12 +37,3 @@ To clone and build the airline ticketing system code, follow these steps:
    Use the following command to compile the source files using gcc:
    ```bash
    gcc airline_ticketing_system.c -o airline_ticketing_system
-
-
-###Usage
-Login or Register: Choose either option to log in with existing credentials or register as a new user.
-Book a New Flight: Reserve flights, select seats, and make payments.
-View Old Tickets: Check previously booked tickets.
-Update Information: Update profile details such as username or password.
-Delete Data Records: Clear user data records.
-Logout: Exit the program.
