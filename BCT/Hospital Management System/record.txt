@@ -1,0 +1,10 @@
+                                                            Patient Record
+                                                                                            Status:
+                                                                                                    0-Discharged
+                                                                                                    1-O.P.D
+                                                                                                    2-Emergency
+
+ID              NAME           AGE GENDER ADDRESS        MOBILE_NO  BLOOD_GRP DISEASE    STATUS  ADMITTED DATE
+1          sandesh_guragain     19  m     jhumka          9869840538 O+     Fever           1    10/02/2065
+2          prashant_nepal       20  M     Jhumka          9869844438 O+     Corona          1    10/02/2080
+3          Suman_kshetri        19  m     pokhara         9864438628 o+     Common_cold     1    09/01/2081
