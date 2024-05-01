@@ -37,3 +37,6 @@ To clone and build the airline ticketing system code, follow these steps:
    Use the following command to compile the source files using gcc:
    ```bash
    gcc airline_ticketing_system.c -o airline_ticketing_system
+
+### Things to consider before running the code 
+1. flights.txt file are must before ruunig code as it needs data to display the flights in console. And then you can run airline_ticketing_system.c
