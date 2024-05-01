@@ -1,0 +1,10 @@
+RA201 Kathmandu Pokhara 5000 April 25 2024 09:00 AM
+SA102 Kathmandu Bharatpur 4500 April 27 2024 10:30 AM
+BH305 Pokhara Kathmandu 5500 April 26 2024 11:15 AM
+YK104 Pokhara Biratnagar 7000 April 29 2024 08:45 AM
+LG207 Bharatpur Nepalgunj 6000 April 28 2024 12:00 PM
+PK401 Nepalgunj Kathmandu 6500 April 30 2024 10:00 AM
+MN308 Kathmandu Lukla 8000 May 1 2024 07:30 AM
+DR503 Lukla Kathmandu 7500 May 2 2024 10:45 AM
+BN206 Kathmandu Bhairahawa 5500 May 3 2024 09:15 AM
+TP309 Bhairahawa Kathmandu 6000 May 4 2024 11:30 AM
