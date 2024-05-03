@@ -1,4 +1,4 @@
-# *** Eastern-CinePlex ***
+# **Eastern-CinePlex** #
 ![Eastern Cineplex](Pic-Eastern-Cineplex.jpeg)
 
 ## **Our Team** ##
