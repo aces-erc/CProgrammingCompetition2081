@@ -1,5 +1,6 @@
 # **Eastern-CinePlex** #
 ![Eastern Cineplex](Pic-Eastern-Cineplex.jpeg)
+<sup>AI generated image.</sup>
 
 ## **Our Team** ##
 1) [Abhishek Niraula](https://github.com/AbhishekNiraula)
