@@ -1,8 +1,12 @@
 # Virtual Doctor in C
+## Team Members:
 
+1. **BHAGWATI PRASAD THAKUR BEI080010**
+2.  **AADARSHA BHUSAL       BEI080001**
+3.  **DHANJIT KUMAR MAHATO  BEI080016**
+4.  **SACHIN LUITEL         BEI0800XX**
 ## Overview
-Virtual Doctor is a sophisticated diagnostic software developed in C that leverages medical data to diagnose illnesses, recommend treatments, and, if necessary, establish a connection with a physical doctor for further evaluation.
-
+Virtual Doctor is a sophisticated diagnostic software developed in C that leverages medical data to diagnose illnesses, recommend treatments, generates report file and, if necessary, establish a connection with a physical doctor for further evaluation.
 ## Features
 - **Intelligent Diagnosis:** Utilizes a comprehensive database of symptoms and conditions to provide accurate health assessments.
 - **Treatment Suggestions:** Offers medical advice and potential remedies for diagnosed conditions.
@@ -14,6 +18,7 @@ Virtual Doctor is a sophisticated diagnostic software developed in C that levera
 3. **Diagnosis:** A potential diagnosis is provided based on the analysis.
 4. **Treatment:** The system suggests possible treatments.
 5. **Referral:** If the system cannot make a definitive diagnosis, it refers the user to a physical doctor.
+6. **Generates Report** It generates patient report file (text) which includes patient info , generated date, symptoms and cure;
 ## Contributing
 Contributions to Virtual Doctor are welcome! Please read our CONTRIBUTING.md for details on our code of conduct and the process for submitting pull requests.
 
@@ -30,5 +35,6 @@ Always seek the advice of your physician or other qualified health providers wit
 To install Virtual Doctor, clone the repository and compile the source code:
 ```bash
 $ git clone <repository-url>
-$ cd projectShe
-$ $ gcc -o projectShe protoType.c
+$ cd virtualDOCTOR
+$ $ gcc -o virtualDOCTR protoType.c
+
