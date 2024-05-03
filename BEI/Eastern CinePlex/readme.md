@@ -1,10 +1,10 @@
 # *** Eastern-CinePlex ***
 
 ## **Our Team** ##
-[ABHISHEK NIRAULA](https://github.com/AbhishekNiraula)
-[SNEHA KARNA](https://github.com/snehaa1278)
-[PRASHAN CHENTA RAI](https://github.com/PrashanRaii)
-[DHIRAJ BIKRAM RAI](https://github.com/hdhirajbrai17)
+-[Abhishek Niraula](https://github.com/AbhishekNiraula)
+-[Sneha Karna](https://github.com/snehaa1278)
+-[Prashan Chenta Rai](https://github.com/PrashanRaii)
+-[Dhiraj Bikram Rai](https://github.com/hdhirajbrai17)
 
 
 ![Eastern Cineplex](/Pic-Eastern-Cineplex.jpeg)
