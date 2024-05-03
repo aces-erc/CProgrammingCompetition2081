@@ -14,6 +14,7 @@ Virtual Doctor is a sophisticated diagnostic software developed in C that levera
 3. **Diagnosis:** A potential diagnosis is provided based on the analysis.
 4. **Treatment:** The system suggests possible treatments.
 5. **Referral:** If the system cannot make a definitive diagnosis, it refers the user to a physical doctor.
+6. **Generates Report** It generates patient report file (text) which includes patient info , generated date, symptoms and cure;
 ## Contributing
 Contributions to Virtual Doctor are welcome! Please read our CONTRIBUTING.md for details on our code of conduct and the process for submitting pull requests.
 
