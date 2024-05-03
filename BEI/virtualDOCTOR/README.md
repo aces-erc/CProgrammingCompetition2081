@@ -31,5 +31,6 @@ Always seek the advice of your physician or other qualified health providers wit
 To install Virtual Doctor, clone the repository and compile the source code:
 ```bash
 $ git clone <repository-url>
-$ cd projectShe
-$ $ gcc -o projectShe protoType.c
+$ cd virtualDOCTOR
+$ $ gcc -o virtualDOCTR protoType.c
+
