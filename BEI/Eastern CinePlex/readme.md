@@ -24,9 +24,9 @@ The project allows users to register with their username, password, and phone nu
 - Download all the files in one folder it must include `extra.h`, `main.c`, `users.txt`, `user.c`, `login.c`, `admin.c` file.
 - Run `gcc main.c -o main` or Build `main.c` file.
 - Run `./main` or execute `main.c` file.
-- To run `admin-interface`
-    - USERNAME: `Abhishek`
-    - PASSWORD: `pass`
+- `Admin-interface` access is hardcoded and for its access:
+    - Username: `Abhishek`
+    - Password: `pass`
 
 ## Additional Info:
 The project is a infinitely run system and it offers optimum facility if run infinitely. You can exit the coding system by `CTRL+C` but we recomend to use the available options in the interface that we created to run the program. If by any chance the system is exited in the middle of execution all the data changed will be flushed.
