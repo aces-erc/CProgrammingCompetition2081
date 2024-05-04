@@ -1,0 +1,4 @@
+1. Rakesh Guragain-> Appointment and Scheduling
+2. Suman Kshetri-> Patient Details
+3. Prapti Pokherel-> Pharmacy Management
+4. Rubi Dahal-> Staff Management 

@@ -1,0 +1,5 @@
+all-to run file
+
+gcc -o out main.c login.c management/appointment.c management/patient.c management/pharmacy.c management/staff.c 
+
+./out
