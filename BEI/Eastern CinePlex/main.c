@@ -26,6 +26,7 @@ struct movie
     int seats[MAX_SEATS];
     int num_seats;
 };
+struct movie film[5];
 struct reservation
 {
     char movies[30];
@@ -37,13 +38,13 @@ struct reservation
 
 struct reservation reserve[100];
 
-struct movie film[5] = {
-    {"Avengers: Endgame", 2, 180, 28, "April", "action, drama", "Russo Brothers", {0}, 60},
-    {"Inception", 5, 148, 29, "April", "Sci-fi, adventure", "Christopher Nolan", {0}, 60},
-    {"FightClub", 8, 139, 29, "April", "Drama", "David Fincher", {0}, 60}, 
-    {"Tumbbad", 6, 104, 28, "April", "Fantasy, Horror, Drama", "Rahi Anil Barve", {0}, 60},
-    {"Whiplash", 2, 106, 30, "April", "Drama, Music", "Damien Cazelle", {0}, 60}
-};
+// For file i/o movies.
+void initializeMoviesFile();
+int saveMoviesToFile(struct movie[], int);
+int loadMoviesFromFile(struct movie[], int *);
+
+int saveReservationToFile(struct reservation[], int);
+int loadReservationFromFile(struct reservation[], int *);
 
 // For user side of things.
 int user_interface(char[]);
@@ -71,6 +72,32 @@ int admin_login();
 // Main Function
 int main()
 {
+    // Initialize movies file with default data if it doesn't exist
+    FILE *file = fopen("movies.txt", "r");
+    if (file == NULL) {
+        initializeMoviesFile();
+        printf("Initialized new file - Default Data.\n");
+    } else {
+        fclose(file);
+    }
+
+    // Load movies data from file.
+    int numMovies = 0;
+    if (loadMoviesFromFile(film, &numMovies) != 0)
+    {
+        printf("\tError loading movie data from file.\n\tExitting!!!\n");
+        return 1;
+    }
+    movies_count = numMovies;
+    printf("%d", movies_count);
+    // Load reservation data from file.
+    int reservationCount = 0;
+    if(loadReservationFromFile(reserve, &reservationCount) != 0)
+    {
+        printf("\tThere are not previous reservations.\n");
+    }
+    reservation_count = reservationCount;
+
     // Step 1: Authentication
     int n, a;
     while (a != 4)
@@ -133,3 +160,6 @@ int admin_login()
 
 // For user's part of things
 #include "user.c"
+
+// For file handeling operations
+#include "file-handeling.c"

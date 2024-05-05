@@ -71,7 +71,8 @@ int see_shows(void)
     {
         printf("\t%d)  %d'th of %s\n",i + 1,temp[i], temp2[i]);
     }
-    printf("\t%d)  EXIT\n", k+1);
+    printf("\t%d)  Return to User Interface\n", k+1);
+    printf("\t%d)  Exit\n", k+2);
     pattern();
     printf("Enter your choice : ");
     int n;
@@ -93,6 +94,14 @@ int see_shows(void)
     if (n < (k+1))
     {
         see_movies(temp[n-1], temp2[n-1]);
+    }
+    else if ( n == (k+1))
+    {
+        printf("\tReturning to user Interface!!!");
+        user_interface(username);
+    }
+    else {
+        return 0;
     }
     return 0;
 }
@@ -127,7 +136,8 @@ int see_movies(int day, char month[])
             }
         }
     }
-    printf("\t%d)  Exit\n", k+1);
+    printf("\t%d)  Return to User Interface\n", k+1);
+    printf("\t%d)  Exit\n", k+2);
     pattern();
     printf("Enter your choice : ");
     // An infinite loop that runs until the user selects valid shows or opts to exit.
@@ -135,13 +145,13 @@ int see_movies(int day, char month[])
     while (true)
     {
         scanf("%d", &n);
-        if (n > 0 && n <= (k + 1))
+        if (n > 0 && n <= (k + 2))
         {
             break;
         }
         else 
         {
-            printf("\tINVALID MOVIE. PLEASE RE-ENTER VALID MOVIE.\n");
+            printf("\tINVALID CHOICE.\n");
             continue;
         }
     }
@@ -150,7 +160,15 @@ int see_movies(int day, char month[])
     {
         book_seats(movie[n-1]);
     }
-
+    else if (n == (k + 1))
+    {
+        printf("\tReturning to user Interface!!!");
+        user_interface(username);
+    }
+    else {
+        return 0;
+    }
+    return 0;
 }
 int display_seats(int seats[], int num_seats)
 {
@@ -217,7 +235,7 @@ int book_seats(char name[])
 
         film[film_index].seats[seat - 1] = 1;
         reserve[reservation_count].seats[i] = seat;
-    }   
+    } 
     strcpy(reserve[reservation_count].movies,film[film_index].name);
     strcpy(reserve[reservation_count].name, username);
     reserve[reservation_count].num_seats = numTickets;
@@ -225,6 +243,18 @@ int book_seats(char name[])
     reservation_count++;
     printf("\t\t\t\tEastern CinePlex\n\t\t\tLangali Chowk, Dharan\n\t\t\tFilm: %s\n\t\t\tYour total billed price (including taxes) will be: NRS.%d\n",film[film_index].name, numTickets * ticket_price);
     printf("\t\t\tTickets booked successfully -- %s!\n", username);
+    
+    // Saving booked seats info into the file "movies.txt".
+    if (saveMoviesToFile(film, movies_count) != 0)
+    {
+        printf("Error saving movie data to file.\n");
+    } 
+
+    // Saving reservatio data into file "reserve.txt".
+    if (saveReservationToFile(reserve, reservation_count) != 0)
+    {
+        printf("Error saving reservation data to file.\n");
+    }
     user_interface(username);   
     return 0;
 }
