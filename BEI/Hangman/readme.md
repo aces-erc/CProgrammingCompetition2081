@@ -40,7 +40,7 @@
   
 
 ## Code Structure:
-+ Modular Functions: The code is well-organized into functions for tasks like word selection, hangman display, and player ## interaction.
++ Modular Functions: The code is well-organized into functions for tasks like word selection, hangman display, and player interaction.
 + Clear Logic: The game logic is straightforward, making it easy to follow and understand.
 
   
