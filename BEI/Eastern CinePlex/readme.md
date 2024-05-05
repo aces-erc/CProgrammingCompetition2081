@@ -18,16 +18,19 @@
 
 **Eastern-CinePlex** is a non-gui project that runs on a terminal and reflects just the internal logic behind how a ticket management system might function in the real world. The primary highlight of the project is a well-thought interface for the terminal.
 
-The project allows users to register with their username, password, and phone number while an admin is hard-coded into the application. The user can view the current movies in the listing, select the movie to view available shows and seats, and finally book the ticket. The admin can change the price of the ticket, add a movie to the listing, create shows, and view already booked shows and earned balance.
+The project allows users to register with their username, password, and phone number while an admin is hard-coded into the application. The user can view the current movies in the listing, select the film to view available shows and seats and book the ticket. The admin can change the ticket price, add a film to the listing, create shows, and view already booked shows and earned balance.
 
 ## How to run the project??
-- Download all the files in one folder it must include `extra.h`, `main.c`, `users.txt`, `user.c`, `login.c`, `admin.c` file.
+- Download all the files in one folder it must include `extra.h`, `main.c`, `users.txt`, `user.c`, `login.c`, and `admin.c` files.
 - Run `gcc main.c -o main` or Build `main.c` file.
-- Run `./main` or execute `main.c` file.
+- Run `./main` or execute the `main.c` file.
+- `admin-interface` access is hardcoded and the credentials are:
+    - Username: `Abhishek`
+    - Password: `pass`
 
 ## Additional Info:
-- Previously, when the project was presented in-front of our respected teacher there was a big loophole with the project i.e on exiting the program with `CTRL + C` all of the changed data would be flushed except for users data which was actually saved with file handeling.
+- Previously, when the project was presented in front of our respected teacher there was a big loophole with the project i.e on exiting the program with `CTRL + C` all of the changed data would be flushed except for user data which was saved with file handling.
 
-- But, now with updated code all of the data that are changed will be intact in three files `reserve.txt`, `movies.txt` and `users.txt`
-and loaded as user interacts with the program.
-- If by any case there is issue with executing `main.exe` you can delete it and rerun the program. If there is issue with files the files can just be deleted and they will be created again by the program itself.
+- But, now with updated code all of the data that are changed will be intact in three files `reserve.txt`, `movies.txt`, and `users.txt`
+and loaded as the user interacts with the program.
+- If in any case there is an issue with executing `main.exe` you can delete it and rerun the program. If there is an issue with files, the files can just be deleted and they will be created again by the program itself.
