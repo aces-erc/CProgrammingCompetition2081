@@ -16,7 +16,6 @@
 
 
 
-
 ## Game Mechanics:
 - Objective: Guess the word before the hangman is fully drawn.
 * Setup: One player thinks of a word, and dashes represent each letter.
@@ -47,6 +46,8 @@
   
 
 ***Overall, your Hangman game provides an enjoyable experience for players of all skill levels, with its intuitive gameplay and engaging design. With the option to restart, access help, and gracefully exit, it offers a seamless user experience. Keep up the great work, and happy gaming!***
+
+***Moreover this project was developed as part of C programming Competition 2081 organized by ACES Purwanchal Campus,Dharan.***
 
 
 
