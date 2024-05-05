@@ -1,12 +1,11 @@
-#000000
 # Project Title
 ## Hangman Game
 
 # Members:- 
-1) ### Rishav Senchury
-2) ### Bijaya Khanal
-3) ### Akit Pariyar
-4) ### Sudip Majhi 
+1) Rishav Senchury
+2) Bijaya Khanal
+3) Akit Pariyar
+4) Sudip Majhi 
 
 
 
@@ -25,20 +24,28 @@
 + Strategy: Starting with common letters and looking for patterns in the blanks can help players guess more efficiently.
 + Winning/Losing: The guesser wins if they guess the word, while the chooser wins if the hangman is fully drawn.
 
+  
+
 # Features:
-## Random Word Selection: Words are randomly chosen from a list, ensuring variety and unpredictability in each game.
-## Player Interaction: Players input their guesses and interact with the game interface.
-## Score Saving: Player scores are saved in a file for future reference.
++ Random Word Selection: Words are randomly chosen from a list, ensuring variety and unpredictability in each game.
++ Player Interaction: Players input their guesses and interact with the game interface.
++ Score Saving: Player scores are saved in a file for future reference.
+
+  
 
 # User Interface:
-## Ascii Art: The game features an attractive ASCII art header and hangman display, adding visual appeal.
-## Menu Options: Players can start the game, access help for instructions, or exit gracefully.
++ Ascii Art: The game features an attractive ASCII art header and hangman display, adding visual appeal.
++ Menu Options: Players can start the game, access help for instructions, or exit gracefully.
+
+  
 
 # Code Structure:
-## Modular Functions: The code is well-organized into functions for tasks like word selection, hangman display, and player ## interaction.
-## Clear Logic: The game logic is straightforward, making it easy to follow and understand.
++ Modular Functions: The code is well-organized into functions for tasks like word selection, hangman display, and player ## interaction.
++ Clear Logic: The game logic is straightforward, making it easy to follow and understand.
 
-*** Overall, your Hangman game provides an enjoyable experience for players of all skill levels, with its intuitive gameplay and engaging design. With the option to restart, access help, and gracefully exit, it offers a seamless user experience. Keep up the great work, and happy gaming! ***
+  
+
+***Overall, your Hangman game provides an enjoyable experience for players of all skill levels, with its intuitive gameplay and engaging design. With the option to restart, access help, and gracefully exit, it offers a seamless user experience. Keep up the great work, and happy gaming!***
 
 
 
