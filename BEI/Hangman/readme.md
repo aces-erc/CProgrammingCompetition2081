@@ -1,5 +1,4 @@
-# Project Title
-### Hangman Game
+# Project Title:- Hangman Game
 
 ## Members:- 
 1) Rishav Senchury
