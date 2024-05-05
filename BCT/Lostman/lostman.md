@@ -7,7 +7,7 @@ This project was developed for C-Project Demonstration.
 
 - [Dipika Chaudhary](https://github.com/riyooo13)
 - [Karuna Karki](https://github.com/karunabott)
-- [Aarju Gautam]
+- [Aarju Gautam](https://github.com/Gitsaarju)
 
 ### How to run
 1. Clone the repository
