@@ -1,11 +1,13 @@
 # Project Title
-## Hangman Game
+### Hangman Game
 
-# Members:- 
+## Members:- 
 1) Rishav Senchury
 2) Bijaya Khanal
 3) Akit Pariyar
 4) Sudip Majhi 
+
+
 
 
 
@@ -16,7 +18,7 @@
 
 
 
-# Game Mechanics:
+## Game Mechanics:
 - Objective: Guess the word before the hangman is fully drawn.
 * Setup: One player thinks of a word, and dashes represent each letter.
 + Guessing: Players guess letters one at a time. Correct guesses fill in the blanks, while wrong guesses add parts to the hangman.
@@ -26,20 +28,20 @@
 
   
 
-# Features:
+## Features:
 + Random Word Selection: Words are randomly chosen from a list, ensuring variety and unpredictability in each game.
 + Player Interaction: Players input their guesses and interact with the game interface.
 + Score Saving: Player scores are saved in a file for future reference.
 
   
 
-# User Interface:
+## User Interface:
 + Ascii Art: The game features an attractive ASCII art header and hangman display, adding visual appeal.
 + Menu Options: Players can start the game, access help for instructions, or exit gracefully.
 
   
 
-# Code Structure:
+## Code Structure:
 + Modular Functions: The code is well-organized into functions for tasks like word selection, hangman display, and player ## interaction.
 + Clear Logic: The game logic is straightforward, making it easy to follow and understand.
 
