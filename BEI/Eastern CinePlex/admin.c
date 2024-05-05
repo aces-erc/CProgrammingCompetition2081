@@ -100,6 +100,12 @@ int edit_movies()
     printf("\n\tDirectors: \t");
     scanf(" %[^\n]s", film[n - 1].director);
     printf("\tData taken successfully!!!");
+
+    // Saving edited file data.
+    if (saveMoviesToFile(film, movies_count) != 0)
+    {
+        printf("Error saving movie data to file.\n");
+    }
     admin_interface();
     return 0;
 }
@@ -165,7 +171,7 @@ int see_reservation(char movie[])
 {
     if (reservation_count == 0)
     {
-        printf("\t There are currently no reservation for %s\n", movie);
+        printf("There are currently no reservation for %s\n", movie);
         view_reservation();
         return 0;
     }
