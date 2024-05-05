@@ -3,7 +3,7 @@
 #include <math.h>
 double s;
 int check(double x, double y){
-double r = sin(asin(x))
+double r = sin(x)
     ;s = fabs(y - r);
     if (s < (0.05)){
         return 1;
